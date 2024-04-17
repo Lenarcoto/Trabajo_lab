@@ -1,0 +1,478 @@
+
+*{
+	padding: 0 px;
+	margin: 0 auto;
+	box-sizing: border-box;
+}
+
+html{
+	scroll-behavior: smooth;
+}
+
+
+nav{
+
+	display: flex;
+	line-height: 50px;
+	text-align: center;
+
+}
+
+nav  a{
+	text-decoration: none;
+	font-size: 1.5em;
+	margin-right: 100px;
+	font-family: courier;
+	font-weight: bold;
+	color: white;
+}
+
+.hola{
+	width: 100%;
+	height: 50px;
+	background-color: red;
+	position: fixed;
+	z-index: 10;
+}
+
+
+#inicio{
+	width: 100%;
+	background-image: url(../img/mon.jpg);
+	height: 100vh;
+	margin: 50px, auto;
+	background-attachment: fixed;
+	
+}
+
+body{
+	background: rgb(34,193,195);
+	background: linear-gradient(0deg, rgba(34,193,195,1) 59%, rgba(253,187,45,1) 100%);
+	background-repeat: ;
+}
+
+#inicio .container{
+	text-align: center;
+	height: 100vh;
+	font-family: tahoma;
+	margin-top: -50px ;
+	color: white;
+	background-color: rgba(7, 12, 20, 0.7);
+} 
+#acerca-de .container2 {
+	background-image: url(../img/red.jpg);
+	color: white;
+	background-size: cover;
+	height: 325vh;
+}
+
+#servicios .container2 {
+	background-image: url(../img/wall.jpg);
+	color: white;
+	background-size: cover;
+	height: 320vh;
+}
+
+#contacto .container2 {
+	background-image: url(../img/t.jpg);
+	color: white;
+	background-size: cover;
+	background-size: cover;
+	height: 320vh;
+}
+
+.container-pie{
+	background-image: url(../img/negro.jpg);
+	color: white;
+	text-align: center;
+	background-size: cover;
+	background-repeat: no-repeat;
+	height: 100vh;
+}
+
+.direccion p {
+	color: red;
+}
+
+.container{
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+}
+.container2{
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+}
+
+.container_contact{
+	text-align: center;
+	width: 500px;
+	height: 600px;
+	border-radius: 5px;
+	box-shadow: 10px 10px 20px;
+	backdrop-filter: blur(2px);
+	display: flex;
+	flex-direction: column;
+	
+}
+
+form{
+	width: 80%;
+	margin: 20px auto;
+}
+
+form input{
+	width: 80%;
+	background-color: ;
+	background-color: rgba(7, 12, 20, 0.4);
+	color: #fff;
+	padding: 5px 2px;
+	font-size: 1.2em;
+	border-radius: 10px;
+}
+
+textarea{
+	width: 100%;
+	background-color: #fff;
+	background-color: rgba(7, 12, 20, 0.4);
+	padding: 5px 2px;
+	font-size: 1.2em;
+	border-radius: 10px;
+	resize: none;
+	color: white;
+}
+
+form input[type="submit"]{
+	width: 100%;
+	color: #fff;
+	background-color: orange;
+	border: solid 5px black;
+	padding: 5px 0;	
+}
+form input[type="submit"]:hover{
+	cursor: pointer;
+	background-color: darkturquoise;
+}
+
+.caja{
+	width: 400px;
+	height: 500px;
+	background-color: #f2f2f2;
+	border-radius: 20px;
+	text-align: center;
+	color: #FFF;
+	font-family: courier;
+	box-shadow: 10px 7px 10px gold;
+	backdrop-filter: blur(3px);
+	background-color: rgba(33, 171, 19, 0.5);
+	display: flex;
+	flex-direction: column;
+	gap: 1.2em;
+	
+}
+
+.imge img{
+	width: 50%;
+	object-fit: cover;
+	border-radius: 20%;
+}
+
+.imge{
+ 	display: flex;
+ 	justify-content: center;
+ 	align-items: center;
+ 	padding: 10px;
+}
+
+
+button{
+	width: 60%;
+	padding: 10px;
+	font-size: 1.3em;
+	text-transform: uppercase;
+	border-radius: 5px;
+	box-shadow: 2px 3px 10px red;
+	border: solid 2px black;
+}
+
+button:hover{
+	background-color: yellow;
+	cursor: pointer;
+	font-size: 1.7em;
+}
+
+.cajas{
+	display: flex;
+	width: 100%;
+	padding: 50px;
+	justify-content: center;
+}
+
+hr{
+	width: 80%;
+}
+
+.hola i{
+	padding: 7px;
+}
+
+a:hover{
+	cursor: pointer;
+	color: yellow;
+	font-size: 1.7em;
+}
+
+.ser{
+	width: 400px;
+	height: 500px;
+	background-color: #f2f2f2;
+	border-radius: 20px;
+	text-align: center;
+	color: #FFF;
+	font-family: courier;
+	box-shadow: 10px 7px 10px red;
+	backdrop-filter: blur(3px);
+	background-color: rgba(56, 187, 225, 0.5);
+	display: flex;
+	flex-direction: column;
+	gap: 1.2em;
+	
+}
+
+.cajas_servicios{
+	display: flex;
+	width: 100%;
+	padding: 50px;
+	justify-content: center;
+}
+
+.ser p{
+	font-weight: bold;
+	color: yellow;
+	background-color: rgba(238, 108, 85 , 0.5)
+
+}
+
+.ser button{
+	background-color: green;
+}
+
+.ser button:hover{
+	cursor: pointer;
+	color: red;
+	font-size: 1.7em;
+	background-color: slateblue;
+}
+
+.container-footer{
+	width: 100%;
+	height: 100%;
+	border: solid black;
+	color: white;
+	background-color: black;
+}
+
+.pie{
+	background-color: black;
+	display: flex;
+	font-size: 1.2rem;
+}
+
+.redes{
+	text-align: center;
+	font-size: 35px;
+}
+
+.redes i:hover{
+	cursor: pointer;
+	color: red;
+}
+
+.info{
+	color: white;
+	text-align: center;
+	display: flex;
+	margin-top: 5%;
+	list-style-type: none;
+	line-height: 50px;
+}
+
+.direccion p{
+	color: white;
+}
+
+.direccion{
+	margin-top: 0px;
+	text-align: left;
+	font-size: 1.2rem;
+}
+
+.direccion p i{
+	margin-right: 10px;
+}
+
+.direccion i:hover{
+	cursor: pointer;
+	color: red;
+}
+
+.ubicacion p{
+	text-align: left;
+	font-size: 1.2rem;
+}
+
+.ubicacion{
+	margin-top: -40px;
+}
+
+.ubicacion i{
+	padding: 5px;
+}
+
+.ubicacion p i:hover{
+	cursor: pointer;
+	color: red;
+}
+
+span{
+	color: blue;
+}
+
+.titulo h1{
+	font-size: 2em ;
+}
+
+
+
+.container-inicio{
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
+}
+
+.titulo{
+	animation: entrada-titulo 2s ease-in-out 1 backwards;
+}
+
+@keyframes entrada-titulo{
+  0%{
+  	transform: translateY(200px);
+  }
+
+  50%{
+  	transform: translateY(10px);
+  }
+}
+
+.imagen{
+	padding: 10px;
+	filter: drop-shadow(3px 3px 20px skyblue);
+	animation: agrandar-imagen 2s ease-in-out 1 backwards;
+}
+
+
+
+
+
+
+
+
+
+
+
+@keyframes agrandar-imagen{
+	0%{
+		transform: scale(1.0);
+	}
+
+	50%{
+		transform: scale(1.8);
+	}
+
+	100%{
+		transform: scale(1.0);
+	}
+}
+
+
+@media (max-width: 400px){
+
+	.hola{
+				width: 100%;
+         height:  25%;
+	}
+
+	nav{
+			flex-direction: column;
+			margin-right: 20%;
+	}
+
+	#inicio{
+		width: 150%;
+	}
+
+	.titulo{
+
+	}
+
+	.container2{
+		width: 150%;
+		height: 150vh;
+	}
+
+	#acerca-de{
+		height: 150%;
+	}
+
+	.caja{
+		font-size: 0.9rem;
+		height: 550px;
+	}
+
+	h2{
+		margin-top: 15%;
+	}
+
+	.cajas{
+		flex-direction: column;
+	}
+
+	.cajas_servicios{
+		flex-direction: column;
+
+	}
+
+	.container_contact{
+		height: 700px;
+	}
+
+	.container-footer{
+		width: 150%;
+		
+	}
+
+	#lenar{
+		margin-right: 30%;
+	}
+
+	#coto{
+		margin-right: 22%;
+	}
+
+	#martinez{
+		margin-right: 25%;
+	}
+
+	.titulo{
+		margin-top: 30%;
+	}
+
+	.imagen{
+		margin-top: 35%;
+	}
+	
+}
+
